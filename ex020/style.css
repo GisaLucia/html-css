@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    margin: 0px;
+}
+
+header{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 3px;
+    box-shadow: 1px 1px 1px black;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+
+}
+
+main{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 40px;
+    box-shadow: 1px 1px 1px black;
+}
+
+article{
+    background-color: antiquewhite;
+}
+
+article > aside {
+    background-color: rgb(138, 135, 131);
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#bola {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}

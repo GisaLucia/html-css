@@ -1,0 +1,18 @@
+h1{ /*box-level */
+    background-color: antiquewhite;
+    height: 300px;
+    width: 300px;
+    border: 10px solid blue;
+
+    padding: 10px 10px 10px 10px;
+    
+    margin: 10px auto 33px auto;
+
+    outline: 10px dashed bisque;
+}
+
+a { /* inline-level */
+    border: 10px solid aqua;
+
+    padding:10px 10px 10px 10px;
+}
